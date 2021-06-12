@@ -1,0 +1,375 @@
+*{margin: 0; padding: 0; outline: 0;box-sizing: border-box;}
+a{text-decoration: none;display: inline-block;}
+ul,ol{list-style: none;}
+.clr{clear: both;}
+.full_wrapper{width: 100%;}
+.container{width: 970px;
+margin: 0 auto;}
+.img{vertical-align: middle;}
+
+/*=====================================================
+                  common Css END
+======================================================*/
+/*=====================================================
+                 Hader Part Start
+======================================================*/
+
+.header_full{height: 114px;background: #f9f9f94f;font-size: 30px;}
+
+.logo{width: 87px;float: left;}
+
+.logo img {
+    padding-top: 13px;}
+
+.header_tax{width: 661px;float: left;text-align: center;
+    padding-top: 47px;color: #7accc8;font-size: 20px;}
+
+.Header_phon{width: 217px;float: left;padding-top: 47px;color: #b76262;}
+
+/*=====================================================
+                  Hader Part END
+======================================================*/
+/*=====================================================
+                Menu Part Start 
+======================================================*/
+
+.menu_full{background: #c80711;
+height: 50px;}
+
+.Main_menu{width: 764px;float: left;}
+
+.Manu_icon{width: 183px;float: left;text-align: right;}
+
+.Manu_icon a{line-height: 50px;padding: 0px 9px;color: white;}
+
+.Main_menu ul li{float: left;}
+
+.Main_menu ul li a{color: #fff;line-height: 50px;padding: 0px 12px;font-size: 16px;font-weight: 600;font-family: 'Open Sans';}
+
+.Main_menu ul li a:hover{background: rgb(202, 202, 156);}
+
+/*=====================================================
+              Menu Part END 
+======================================================*/
+/*=====================================================
+                  banner part Start
+======================================================*/
+
+.banner_full{background:url(images/banner1.jpg);background-repeat: no-repeat;background-position: center;background-size: cover;padding: 74px 0 77px;position: relative;}
+
+.banner_text{width: 391px;float:left;}
+
+.banner_img{width: 570px;float: left;}
+.banner_img img {
+    position: absolute;
+    left: 50%;
+    top: 11%;
+}
+
+.banner_text h2{font-size: 35px;color: #215a6d;padding-bottom: 7px;}
+
+.banner_text h1{
+    font-size: 46px;
+    color: #215a6d;
+    padding-bottom: 17px;
+    }
+
+    .banner_text p{
+        font-size: 18px;
+        color: #215a6d;
+        line-height: 25px;
+        letter-spacing: 1px;
+        padding-bottom: 45px;
+        }
+
+
+.banner_text a {font-size: 20px;
+    background: #215a6d;border: 2px solid;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 21px;}
+
+ /*=====================================================
+                  banner part EMD
+======================================================*/
+ /*=====================================================
+                  LAB part Start
+======================================================*/
+
+.Lab_full{padding-top: 45px;
+padding-bottom: 90px;}
+
+.lab_contain{width: 310px;
+float: left;
+text-align: center;}
+
+.lab_contain h2{font-size: 24px;
+color: #3CA2A2;
+font-family:Arial, Helvetica, sans-serif;
+padding-bottom: 26px;}
+.lab_contain p{padding-top: 18px;padding-bottom: 29px;
+    line-height: 22px;font-size: 13px;color: #3CA2A2;padding: 0 21px;}
+
+.lab_contain img{padding-bottom: 16px;}
+
+.lab_contain a{padding-top: 28px;
+font-size: 14px;
+color: #92C7A3;}
+
+ /*=====================================================
+                    Lab part END
+======================================================*/
+ /*=====================================================
+                  Notis Board part Start
+======================================================*/
+
+.notis_board_Full{background: #f5f5f5;
+padding: 22px 0;}
+
+.notis_full{
+    float: left;
+    width: 480px;
+}
+
+.notis_full h2{font-size: 28px;
+color: #215A6D;
+font-weight: 600;
+font-family: arial;}
+
+
+
+.Notis_Board_taxt{/* padding-top: 34px; */}
+.Notis_Board_taxt a{
+    background: white;
+    border-top: 1px solid #215A6D;
+    font-size: 16px;
+    color: #3CA2A2;
+    padding: 11px 15px;
+    display: block;
+    font-weight: 600;
+    position: relative;
+    }
+
+
+
+.Notic_img{float: left;width: 480px;padding-top: 38px;}
+
+
+.Notis-inner{float: left;width: 480px;padding-top: 35px;padding-right: 40px;}
+
+.view_all a{padding: 25px 0;font-size: 17px;color: #ff3f3f;font-weight: 600;}
+
+.view_all a i {
+    border: 1px solid;
+    border-radius: 100%;
+    padding: 3px 4px;
+    background: white;}
+
+    i.fas.fa-chevron-right {
+        float: right;
+        padding: 12px 15px;
+        background: rgb(206, 3, 3);
+        color: white;
+        position: absolute;
+        left: 91%;
+        top: 0%;
+    }
+    
+
+
+
+ /*=====================================================
+                  Notis Board part END
+======================================================*/
+ /*=====================================================
+                  Medical part Start
+======================================================*/
+
+.Madical_full{padding:65px 0;}
+
+.madical_inner{width: 327px;float: left;}
+
+.madical_inner h2{
+    font-size: 32px;
+    color: #215A6D;
+    font-weight: bold;
+    }
+
+
+.madical_services{width: 315px;
+    float: left;
+}
+
+.madical_services h2{
+    font-size: 28px;
+    color: #215A6D;
+    font-weight: bold;
+    }
+    
+.madical_services a {
+    display: block;
+    line-height: 37px;
+    font-size: 16px;
+    color: #215A6D;
+    font-weight: 600;
+    font-family: arial;
+}
+
+.madical_services li {
+    padding-top: 33px;
+}
+
+.madical_services i{color: red;
+    padding-right: 5px;}
+
+
+ .madical_inner h3{padding-top: 19px;font-size: 22px;color: #3CA2A2;padding-bottom: 10px;}   
+
+.madical_inner p{font-size: 19px;color: #215A6D;font-weight: 400;line-height: 27px;padding-bottom: 15px;}
+
+.underline{color: cornflowerblue;width: 91%;height: 1px;background: #215A6D;}
+
+.img_inner{float: left;
+}
+
+
+.img_inner img {
+    padding: 14px 21px 8px 2px;
+}
+
+
+
+.view_all_color a{
+    color: #ff3f3f;
+    top: 79%;
+    position: absolute;
+}
+
+.photo_gallery-view{padding-bottom:10px;position: absolute;top: 80.5%;right: 25%;}
+
+
+.madical_head {
+    position: relative;
+}
+
+ /*=====================================================
+                  Medical part END
+======================================================*/
+ /*=====================================================
+                  Doctor part Start
+======================================================*/
+
+.Doctor_inner img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 290px;
+    }
+
+.doctor_full{
+    padding-top: 15px;
+    padding-bottom: 80px;
+}
+.Doctor_inner{width: 310px;float: left;padding: 0px 10px 1px 0px;}
+
+.Our_Doctor{font-size: 28.5px;
+color: #215a6d;}
+
+.Doctor_inner h2{font-size: 18px;
+color: #3ca2a2;font-weight: 600;
+padding:15px 0;}
+
+.Doctor_inner h3{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 15px 0;
+    font-family: Georgia, serif;
+    }
+
+    .Doctor_inner h4{padding-bottom: 7px;}
+    
+.Doctor_inner p{font-size: 12px;
+    color: #cf0511;font-weight: 500;
+    font-family: Georgia, serif;}
+
+    /*==================================================================
+                        Doctor part End
+    ===================================================================*
+        /*==================================================================
+                        fotter part start
+    ===================================================================*/
+
+
+.fotter-full{
+  background: rgb(12, 11, 11);
+  padding-bottom: 100px;
+  }
+
+  .fotter_text{height: 130px;position: relative;}
+
+  .fotter_text img{
+    width: 100px;
+    float: left;
+    padding-top: 14px;
+    position: absolute;
+    left: 3%;
+    }
+
+    .fotter_text h2{
+        float: left;
+        width: 800%;
+        padding: 6px;
+        position: absolute;
+        left: 17%;
+        top: 25%;
+        color: #3CA2A2;
+        font-weight: 800;
+        }
+
+
+.fotter_main{float: left;width: 230px;}
+
+.fotter_main h2{color: #3ca2a2;}
+
+.fotter_main ul li{
+    padding-top: 19px;
+}
+
+.fotter_main ul li i{color:rgb(206, 3, 3);}
+
+.fotter_main a {
+    display: block;
+    color: white;
+    padding-top: 6px;
+}
+
+.fotter_contain_all{/* text-align: center; */padding-left: 48px;}
+ /*=====================================================
+                  fotter part END
+======================================================*/
+ /*=====================================================
+                  copyright part start
+======================================================*/
+
+.copyright-full{background: #c80711;
+height: 45px;}
+
+.copyright_inner{text-align: center;}
+
+.copyright_inner h5{line-height: 45px;
+color: wheat;}
+
+
+
+
+
+
+docu
+
+
+
+
+
+ /*=====================================================
+                  copyright part END
+======================================================*/
